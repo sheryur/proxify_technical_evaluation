@@ -1,0 +1,13 @@
+version: '2.4'
+services:
+    app:
+        container_name: proxify_distributed_workers
+        image: proxify_distributed_workers
+        build:
+            context: .
+            dockerfile: Dockerfile
+        environment:
+            NODE_ENV: production
+        restart: always
+        ports:
+            - "80:8000"

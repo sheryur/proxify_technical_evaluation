@@ -1,0 +1,26 @@
+{
+    "name": "proxify_technical_evaluation",
+    "description": "Proxify technical evaluation task",
+    "version": "1.0.0",
+    "author": "Yuriy Sherstyuk",
+    "license": "ISC",
+    "private": true,
+    "main": "src/app.ts",
+    "scripts": {
+        "compile": "tsc",
+        "start": "cd src && tsc && node app.js"
+    },
+    "devDependencies": {
+        "@types/node": "^14.6.4",
+        "tslint": "^6.1.3",
+        "typescript": "^4.0.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sheryur/proxify_technical_evaluation.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sheryur/proxify_technical_evaluation/issues"
+    },
+    "homepage": "https://github.com/sheryur/proxify_technical_evaluation#readme"
+}

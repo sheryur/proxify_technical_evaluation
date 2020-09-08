@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "url": "https://proxify.io",
+        "status": "NEW",
+        "http_code": null
+    },
+    {
+        "id": 2,
+        "url": "https://reddit.com/",
+        "status": "NEW",
+        "http_code": null
+    },
+    {
+        "id": 3,
+        "url": "https://asdasdsaddsasad.com/",
+        "status": "NEW",
+        "http_code": null
+    },
+    {
+        "id": 4,
+        "url": "error-test",
+        "status": "NEW",
+        "http_code": null
+    },
+    {
+        "id": 5,
+        "url": "http://google.com/",
+        "status": "NEW",
+        "http_code": null
+    }
+]
